@@ -1,0 +1,8 @@
+meters = int(input("Enter Meters for conversion:"))
+print(meters * 1000, "millimetres")
+print(meters * 100, "centimetres")
+print(meters / 1000, "kilometres")
+print(meters * 100 / 2.54, "inches")
+print(meters * 3.28084, "feet")
+print(meters / 1000 * 0.621371, "miles")
+print(meters * 1.09361, "yards")
